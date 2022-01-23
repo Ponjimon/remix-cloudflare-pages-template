@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "remix-app-template",
-  "description": "",
-  "license": "",
+  "name": "remix-cloudflare-pages",
+  "description": "An opinionated template for running Remix on Cloudflare Pages.",
+  "license": "MIT",
   "scripts": {
     "build": "cross-env NODE_ENV=production remix build",
     "dev": "cross-env NODE_ENV=development run-p dev:*",
