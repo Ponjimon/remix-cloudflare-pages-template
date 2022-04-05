@@ -7,7 +7,7 @@
     "prepare": "husky install",
     "build": "cross-env NODE_ENV=production remix build",
     "dev": "cross-env NODE_ENV=development run-p dev:*",
-    "postinstall": "remix setup cloudflare-pages",
+    "postinstall": "remix setup cloudflare",
     "dev:remix": "remix watch",
     "dev:wrangler": "wrangler pages dev ./public --watch ./build",
     "start": "yarn run dev:wrangler"
