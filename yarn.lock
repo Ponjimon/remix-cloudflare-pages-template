@@ -968,7 +968,7 @@
   dependencies:
     "@remix-run/cloudflare" "1.4.3"
 
-"@remix-run/cloudflare@1.4.3":
+"@remix-run/cloudflare@1.4.3", "@remix-run/cloudflare@^1.4.3":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@remix-run/cloudflare/-/cloudflare-1.4.3.tgz#f9c0ba53edd62355ab6c5459a9646f9179f78fc9"
   integrity sha512-MhlHwwYCb2pETFaz7BLcVsuE4Sd5rfyZvnhvSrk8CsQOOTT1kqIXXnLPR/Xenm4zfQoQpOFMWnYoSJ0hhCL7bw==
@@ -6230,11 +6230,6 @@ remark-rehype@^9.0.0:
     "@types/mdast" "^3.0.0"
     mdast-util-to-hast "^11.0.0"
     unified "^10.0.0"
-
-remix@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/remix/-/remix-1.4.3.tgz#5c671ce4876989d579ff8738accb0a01ef688407"
-  integrity sha512-2MG6y6IrfE9//mm41urKFYZNKfMOnrglSBCmMB1XyvcSQiXrHpOmuMITm7H5LujHwNlqU8REOWpKe/LQABUVHg==
 
 repeat-element@^1.1.2:
   version "1.1.4"
