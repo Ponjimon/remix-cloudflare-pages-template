@@ -5,11 +5,11 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "build": "cross-env NODE_ENV=production remix build",
-    "dev": "cross-env NODE_ENV=development run-p dev:*",
+    "build": "remix build",
+    "dev": "remix build && run-p dev:*",
     "dev:remix": "remix watch",
-    "dev:wrangler": "wrangler pages dev --local ./public",
-    "start": "yarn run dev:wrangler"
+    "dev:wrangler": "cross-env NODE_ENV=development wrangler pages dev --local ./public",
+    "start": "cross-env NODE_ENV=production yarn run dev:wrangler"
   },
   "dependencies": {
     "@remix-run/cloudflare": "^1.4.3",
