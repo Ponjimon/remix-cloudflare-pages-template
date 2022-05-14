@@ -1,5 +1,5 @@
 {
-  "startCommand": "yarn build && yarn dev",
+  "startCommand": "yarn dev",
   "env": {
     "NODE_ENV": "development"
   }
