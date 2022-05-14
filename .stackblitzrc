@@ -1,0 +1,6 @@
+{
+  "startCommand": "yarn build && yarn dev",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
