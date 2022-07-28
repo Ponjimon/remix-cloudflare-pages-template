@@ -9,7 +9,7 @@
     "dev": "remix build && run-p dev:*",
     "dev:remix": "remix watch",
     "dev:wrangler": "cross-env NODE_ENV=development wrangler pages dev --local ./public",
-    "start": "cross-env NODE_ENV=production yarn run dev:wrangler"
+    "start": "cross-env NODE_ENV=production pnpm run dev:wrangler"
   },
   "dependencies": {
     "@remix-run/cloudflare": "^1.4.3",
